@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Welcome to Food Hub Cafe"
+        android:textStyle="bold|italic"
+        />
+
+    <EditText
+        android:id="@+id/ORDER1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="15dp"
+        android:hint="Enter order 1"/>
+
+    <EditText
+        android:id="@+id/ORDER2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="15dp"
+        android:hint="Enter order 2"/>
+
+    <EditText
+        android:id="@+id/ORDER3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="15dp"
+        android:hint="Enter order 3"
+        />
+
+    <EditText
+        android:id="@+id/ORDER4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:hint="Enter order 4"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order now"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
